@@ -427,36 +427,41 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
                         )
                       ],
                     ),
-                    child: Theme(
-                      data: Theme.of(context).copyWith(dividerColor: Colors.transparent),
-                      child: ExpansionTile(
-                        title: Text(
-                          modelName,
-                          style: TextStyle(fontWeight: FontWeight.bold, color: modelColor),
-                        ),
-                        leading: Container(
-                          padding: const EdgeInsets.all(6),
-                          decoration: BoxDecoration(
-                            color: modelColor.withOpacity(0.1),
-                            borderRadius: BorderRadius.circular(10),
+                    child: Material(
+                      color: Colors.transparent,
+                      borderRadius: BorderRadius.circular(20),
+                      clipBehavior: Clip.antiAlias,
+                      child: Theme(
+                        data: Theme.of(context).copyWith(dividerColor: Colors.transparent),
+                        child: ExpansionTile(
+                          title: Text(
+                            modelName,
+                            style: TextStyle(fontWeight: FontWeight.bold, color: modelColor),
                           ),
-                          child: Icon(Icons.smart_toy_outlined, color: modelColor, size: 18),
-                        ),
-                        children: [
-                          Container(
-                            width: double.infinity,
-                            padding: const EdgeInsets.only(left: 20, right: 20, bottom: 20, top: 4),
+                          leading: Container(
+                            padding: const EdgeInsets.all(6),
                             decoration: BoxDecoration(
-                              border: Border(
-                                  left: BorderSide(color: modelColor, width: 3),
+                              color: modelColor.withOpacity(0.1),
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            child: Icon(Icons.smart_toy_outlined, color: modelColor, size: 18),
+                          ),
+                          children: [
+                            Container(
+                              width: double.infinity,
+                              padding: const EdgeInsets.only(left: 20, right: 20, bottom: 20, top: 4),
+                              decoration: BoxDecoration(
+                                border: Border(
+                                    left: BorderSide(color: modelColor, width: 3),
+                                ),
+                              ),
+                              child: SelectableText(
+                                response,
+                                style: const TextStyle(fontSize: 14, height: 1.5, color: Colors.black87),
                               ),
                             ),
-                            child: SelectableText(
-                              response,
-                              style: const TextStyle(fontSize: 14, height: 1.5, color: Colors.black87),
-                            ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
                   );

@@ -2,6 +2,14 @@
 
 Bu proje, kullanıcının girdiği bir analiz konusunu 5 farklı bağımsız analiz modülüne eşzamanlı olarak gönderen, bu modüllerden gelen bulguları Konsolidasyon Modülü aracılığıyla sentezleyip tek bir konsolide rapor haline getiren ve tüm süreci SQLite yerel veritabanına kaydeden kapsamlı bir sistemdir.
 
+## 🎥 Proje Tanıtım Videosu (Demo)
+
+Uygulamanın çalışmasını anlatan tanıtım videosu:
+
+<video src="demo_video.mp4" width="100%" controls></video>
+
+*(Not: Depoyu GitHub'a yüklemeden önce kendi kaydettiğiniz videonun adını `demo_video.mp4` olarak değiştirip bu klasöre (proje ana dizinine) atmanız yeterlidir. GitHub sayfasında video doğrudan oynatılabilecektir.)*
+
 ## Proje Klasör Yapısı
 
 ```text

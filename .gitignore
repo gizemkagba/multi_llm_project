@@ -1,0 +1,48 @@
+# Secrets & Env
+.env
+*.env
+/backend/.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.venv
+.env
+.eggs/
+.pytest_cache/
+.mypy_cache/
+
+# Databases
+*.db
+*.sqlite
+/backend/query_history.db
+
+# Flutter / Dart (just in case they aren't covered by frontend/.gitignore)
+/frontend/.dart_tool/
+/frontend/.flutter-plugins
+/frontend/.flutter-plugins-dependencies
+/frontend/.packages
+/frontend/build/
+/frontend/ios/Flutter/ephemeral/
+/frontend/ios/Flutter/Flutter.podspec
+/frontend/ios/Flutter/Generated.xcconfig
+/frontend/ios/Flutter/flutter_export_environment.sh
+/frontend/ios/Runner/GeneratedFiles/
+/frontend/android/local.properties
+/frontend/android/key.properties
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

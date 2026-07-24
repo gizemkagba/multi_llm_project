@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/924bd511-b70c-4a88-8de5-0ccf4c773dec
+
 # Konsolide Veri Analiz ve Karar Destek Sistemi
 
 Bu proje, kullanıcının girdiği bir analiz konusunu 5 farklı bağımsız analiz modülüne eşzamanlı olarak gönderen, bu modüllerden gelen bulguları Konsolidasyon Modülü aracılığıyla sentezleyip tek bir konsolide rapor haline getiren ve tüm süreci SQLite yerel veritabanına kaydeden kapsamlı bir sistemdir.

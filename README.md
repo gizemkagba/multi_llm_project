@@ -4,7 +4,7 @@ Bu proje, kullanıcının girdiği bir analiz konusunu 5 farklı bağımsız ana
 
 ## 🎥 Proje Tanıtım Videosu (Demo)
 
-### [▶ PROJE TANITIM VİDEOSUNU İZLEMEK İÇİN BURAYA TIKLAYIN](raw/main/demo_video.mp4)
+### [▶ PROJE TANITIM VİDEOSUNU İZLEMEK İÇİN BURAYA TIKLAYIN](/gizemkagba/multi_llm_project/raw/main/demo_video.mp4)
 
 *(Not: Bu bağlantı tarayıcınızın kendi video oynatıcısını açacaktır. Sayfada otomatik Türkçe çeviri aktifse bağlantı adresi bozulabilir. Hata alırsanız çeviriyi kapatıp tıklayabilirsiniz).*
 

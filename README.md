@@ -6,7 +6,7 @@ Bu proje, kullanıcının girdiği bir analiz konusunu 5 farklı bağımsız ana
 
 Uygulamanın çalışmasını anlatan tanıtım videosu:
 
-![Proje Tanıtım Videosu](demo_video.mp4)
+<video src="/gizemkagba/multi_llm_project/raw/main/demo_video.mp4" width="100%" controls></video>
 
 ## Proje Klasör Yapısı
 

@@ -6,7 +6,7 @@ Bu proje, kullanıcının girdiği bir analiz konusunu 5 farklı bağımsız ana
 
 Uygulamanın çalışmasını anlatan tanıtım videosu:
 
-<video src="demo_video.mp4" width="100%" controls></video>
+![Proje Tanıtım Videosu](demo_video.mp4)
 
 ## Proje Klasör Yapısı
 

@@ -4,9 +4,9 @@ Bu proje, kullanıcının girdiği bir analiz konusunu 5 farklı bağımsız ana
 
 ## 🎥 Proje Tanıtım Videosu (Demo)
 
-### [▶ PROJE TANITIM VİDEOSUNU İZLEMEK İÇİN BURAYA TIKLAYIN](demo_video.mp4)
+### [▶ PROJE TANITIM VİDEOSUNU İZLEMEK İÇİN BURAYA TIKLAYIN](raw/main/demo_video.mp4)
 
-*(Not: Tarayıcınızın otomatik Türkçe çeviri özelliği aktifse bağlantı adresi bozulabilir. Hata alırsanız çeviriyi kapatıp tıklayabilirsiniz).*
+*(Not: Bu bağlantı tarayıcınızın kendi video oynatıcısını açacaktır. Sayfada otomatik Türkçe çeviri aktifse bağlantı adresi bozulabilir. Hata alırsanız çeviriyi kapatıp tıklayabilirsiniz).*
 
 ## Proje Klasör Yapısı
 
